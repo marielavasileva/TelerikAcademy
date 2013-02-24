@@ -1,0 +1,96 @@
+﻿body{
+        font-family:Georgia;
+}
+.mainDiv{
+        border: 1px solid #818181;
+        border-radius: 5px;
+        width: 640px;
+        height: 520px;
+}
+.tab1{
+        float:left;
+        padding:5px 0px 5px 105px;
+        margin-left: 30px;
+        border-bottom: 1px solid #000000;
+        width: 490px;
+        height: 31px;
+}
+.tab{
+        float: left;
+        width: 660px;
+        height: 442px;
+}
+.tab1 a{
+        color:#00A9EF;
+        font-weight: bold;
+        font-size: 20px;
+}
+.tab2{
+        float: left;
+        border: 1px solid #000000;
+        border-radius: 1px;
+        width: 430px;
+        height: 460px;
+        margin: 8px ;
+        padding-left: 3px;
+}
+fieldset
+{
+        float: left;
+        margin: 16px 3px 0 5px;
+        width: 180px;
+        height: 118px;
+        border:1px solid #000000;
+}
+
+
+.img{
+        float: left;
+        width: 100px;
+        height: 60px;
+        margin: 1px 0px 0px 5px;
+}
+.specifics{
+        font-size: 12px;
+        font-family: Georgia;
+        float:right;
+        width: 72px;
+        height: 46px;
+        margin: 35px 0px 0px 0px;
+}
+.emptydiv{
+        width: 100%;
+        height:10px;
+}
+.price{
+        font-family:Georgia;
+        font-size: 14px;
+        float: left;
+        width: 185px;
+        height: 23px;
+        margin: 0px 0px 0px 30px
+}
+.range{
+        font-family: normal;
+        float: left;
+        font-size: 17px;
+        margin: 70px 0px 0px 0px;
+        width: 201px;
+        height: 319px;
+}
+.range1{
+        float: left;
+        width: 176px;
+        margin-top:10px;
+        text-align:left;
+}
+.range1 input{
+        float: left;
+        width: 166px;
+        margin-top: 20px;
+        margin-left:5px;
+}
+.range1{
+        font-family: Georgia, Verdana, sans-serif;
+}
+

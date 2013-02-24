@@ -1,0 +1,54 @@
+﻿body
+{
+    display: block;
+    width: 8.5%;
+    font: 14px normal Arial;
+    color: Black;
+}
+
+ul.nav-list
+{
+    list-style-type: none;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: black;
+    font: 1.4em normal Arial;
+}
+
+ul li:hover > a
+{
+    text-decoration: underline;
+    color: Black;
+}
+
+ul li:hover > a + ul
+{
+    display: block;
+}
+
+ul li ul.sub-nav-list
+{
+    position: relative;
+    display: none;
+    width: 250px;
+}
+
+ul li ul li
+{
+    float: none;
+    margin: 0 10px;
+}
+
+ul li ul li:last-of-type
+{
+    border-bottom: none;
+}
+
+ul li ul li > a
+{
+    
+    color: Gray;
+}

@@ -1,0 +1,58 @@
+﻿body 
+{
+    background-color:#a9a9a9;
+}
+
+header
+{
+    text-align:center;
+}
+h1
+{
+    color:#fafad2;
+}
+footer
+{
+    text-align:center;
+}
+ul li
+{
+    list-style-type:none;
+}
+.current
+{
+    background-color:#d3d3d3;
+}
+
+section footer
+{
+	text-align: left;
+	font-size: 12px;
+}
+section header
+{
+	text-align: left;
+}
+
+a
+{
+	text-decoration: none;
+	color: #000;
+}
+li a:link
+{
+	text-decoration: none;
+	color: #FFF;
+	font-weight: bold;
+}
+li a:visited
+{
+	text-decoration: none;
+	color: #FFF;
+	font-weight: bold;
+}
+li:last-child
+{
+	color: #FFF;
+	text-decoration: underline;
+}
