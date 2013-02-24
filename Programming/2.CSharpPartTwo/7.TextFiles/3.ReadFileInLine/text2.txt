@@ -1,0 +1,5 @@
+1 There is one other point of interest in the inventory program. Notice how the end of the
+2 file is detected. Since the binary input methods throw an EndOfStreamException when
+3 the end of the stream is reached, the program simply reads the file until either it finds the
+4 desired item or this exception is generated. Thus, no special mechanism is needed to detect
+5 the end of the file.

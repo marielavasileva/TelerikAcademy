@@ -1,0 +1,5 @@
+Up to this point, we have been using sequential files, which are files that are accessed in a
+strictly linear fashion, one byte after another. However, you can also access the contents of a
+file in random order. One way to do this is to use the Seek( ) method defined by FileStream.
+This method allows you to set the file position indicator (also called the file pointer or simply
+the current position) to any point within a file.

@@ -1,0 +1,10 @@
+There is one other point of interest in the inventory program. Notice how the end of the
+file is detected. Since the binary input methods throw an EndOfStreamException when
+the end of the stream is reached, the program simply reads the file until either it finds the
+desired item or this exception is generated. Thus, no special mechanism is needed to detect
+the end of the file.
+Up to this point, we have been using sequential files, which are files that are accessed in a
+strictly linear fashion, one byte after another. However, you can also access the contents of a
+file in random order. One way to do this is to use the Seek( ) method defined by FileStream.
+This method allows you to set the file position indicator (also called the file pointer or simply
+the current position) to any point within a file.
