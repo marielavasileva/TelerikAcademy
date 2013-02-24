@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Table Laptops</title>
+    <style "text/css">
+        table
+        {
+            border-collapse: collapse;
+            border-spacing: 0px;
+            
+            border: #B1ABDF;           
+
+        }
+        td
+        {
+            padding: 10px;
+            border: 1px solid;
+            
+                   }
+                   .pic
+            {
+                width:125px;
+                height: 120px;
+                float: left;
+            }
+            
+            
+            .cell
+            {
+                width:250px;
+                background-color:#ffffff;
+            }
+    </style>
+</head>
+<body>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">
+                        <span>Apple</span>
+                        <span>Sony</span>
+                        <span>Samsung</span>
+                        <span>Dell</span>
+                        <span>Acer</span>    
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td >
+                        <table>
+                            <tr>
+                                <td>
+                                    <fieldset>
+                                        <legend>Apple pro1</legend>
+                                        <div class="cell">
+                                            <div class="pic">
+                                                <img src="apple.png"  alt=img/>
+                                                <div class="divtext">1300 USD</div>
+                                            </div>
+                                            <div>
+                                                <div>64 GB SSD</div>
+                                                <div>2 GB DDR</div>
+                                                <div>Intel Core i5</div>
+                                            </div>                                            
+                                        </div>
+                                    </fieldset>
+                                </td>
+                                <td>
+                                    <fieldset>
+                                        <legend>MacBook</legend>
+                                        <div class="cell">
+                                            <div class="pic">
+                                                <img src="apple.png" alt=img/>
+                                                <div>1300 USD</div>
+                                            </div>
+                                            <div>
+                                                <div>64 GB SSD</div>
+                                                <div>2 GB DDR</div>
+                                                <div>Intel Core i5</div>
+                                            </div>                                            
+                                        </div>
+                                    </fieldset>
+                                </td>    
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <fieldset>
+                                        <legend>ProBook</legend>
+                                        <div class="cell">
+                                            <div class="pic">
+                                                <img src="apple.png" alt=img/>
+                                                <div>1300 USD</div>
+                                            </div>
+                                            <div>
+                                                <div>64 GB SSD</div>
+                                                <div>2 GB DDR</div>
+                                                <div>Intel Core i5</div>
+                                            </div>                                            
+                                        </div>
+                                    </fieldset>
+                                </td>
+                                <td>    
+                                    <fieldset>
+                                        <legend>Apple air</legend>
+                                        <div class="cell">
+                                            <div class="pic">
+                                                <img src="apple.png" alt=img/>
+                                                <div>1300 USD</div>
+                                            </div>
+                                            <div>
+                                                <div>64 GB SSD</div>
+                                                <div>2 GB DDR</div>
+                                                <div>Intel Core i5</div>
+                                            </div>                                            
+                                        </div>
+                                    </fieldset>
+                                </td>    
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                    <fieldset>
+                                        <legend>Air pro</legend>
+                                        <div class="cell">
+                                            <div class="pic">
+                                                <img src="apple.png" alt=img/>
+                                                <div>1300 USD</div>
+                                            </div>
+                                            <div>
+                                                <div>64 GB SSD</div>
+                                                <div>2 GB DDR</div>
+                                                <div>Intel Core i5</div>
+                                            </div>                                            
+                                        </div>
+                                    </fieldset>
+                                </td>
+                                <td>                                
+                                    <fieldset>
+                                        <legend>Mac mega pro</legend>
+                                        <div class="cell">
+                                            <div class="pic">
+                                                <img src="apple.png"  alt=img/>
+                                                <div>1300 USD</div>
+                                            </div>
+                                            <div>
+                                                <div>64 GB SSD</div>
+                                                <div>2 GB DDR</div>
+                                                <div>Intel Core i5</div>
+                                            </div>                                            
+                                        </div>
+                                    </fieldset>
+                                </td>                    
+                            </tr>                                    
+                        </table>
+                    </td>
+                    
+                    <td>
+                        <div>
+                            <span>Min price: </span>
+                            <span>500</span>
+                            <span>USD</span>
+                        </div>
+                        <div><input id="minPrice" type="range" min="0" max="10000" value="500" onchange="changeValue('minPrice')"/></div>
+                        <div>
+                            <span>Max price: </span>
+                            <span>1500</span>
+                            <span>USD</span>
+                        </div>
+                        <div><input id="maxPrice" type="range" min="250" max="10000" value="1500" onchange="changeValue('maxPrice')"/></div>
+                        <div>
+                            <span>Min RAM: </span>
+                            <span>4</span>
+                            <span>GB</span>
+                        </div>
+                        <div><input id="minRAM" type="range" min="0" max="24" value="4" onchange="changeValue('minRAM')"/></div>
+                        <div>
+                            <span>Max RAM: </span>
+                            <span>16</span>
+                            <span>GB</span>
+                        </div>                        
+                        <div><input id="maxRAM" type="range" min="0" max="24" value="16" onchange="changeValue('maxRAM')"/></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+</body>
+</html>

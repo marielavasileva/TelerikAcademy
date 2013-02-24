@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Apply form</title>
+    <style type="text/css">
+        table
+        {
+            border-collapse: collapse;
+        }
+        
+        td
+        {
+            padding: 10px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <input name="subject" type="hidden" value="Class" />
+    <fieldset>
+        <label for="lname">
+            <b>Last Name</b></label>
+        <input type="text" name="lname" id="lname" />
+    </fieldset>
+    <fieldset>
+        <label for="fname">
+            <b>First Name</b></label>
+        <input type="text" name="fname" id="fname" />
+    </fieldset>
+    <fieldset>
+        <label for="adr">
+            <b>Address</b></label>
+        <textarea name="Address"></textarea>
+    </fieldset>
+    <fieldset>
+        <label for="city">
+            <b>City</b></label>
+        <input type="text" name="city" id="name" />
+        <label for="state">
+            <b>State</b></label>
+        <input type="text" name="state" id="state" />
+    </fieldset>
+    <fieldset>
+        <label for="zip">
+            <b>Zip/Postal Code</b></label>
+        <input type="text" name="zip" id="zip" />
+    </fieldset>
+    <fieldset>
+        <label for="count">
+            <b>Country</b></label>
+        <select name="count" id="count">
+            <option value="Bul">Bulgaria</option>
+            <option value="Arg">Argentina</option>
+            <option value="Us">USA</option>
+            <option value="Br">Brazil</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <label for="phone">
+            <b>Phone(country code,area code,number) </b>
+        </label>
+        (+
+        <input type="text" name="phone" id="phone" />)
+        <input type="text" name="phone" id="phone1" />-
+        <input type="text" name="phone" id="phone2" />
+    </fieldset>
+    <fieldset>
+        <label for="mail">
+            <b>E-mail </b>
+        </label>
+        <input type="text" name="mail" id="mail" />
+    </fieldset>
+    <fieldset>
+        <label for="date">
+            <b>Birth date </b>
+        </label>
+        Month
+        <input type="text" name="date" id="month" />Day
+        <input type="text" name="date" id="day" />
+        Year(four digits)
+        <input type="text" name="date" id="year" />
+    </fieldset>
+    <fieldset>
+        <label for="sex">
+            <b>Gender</b></label>
+        <select name="sex" id="sex">
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        Starting date:
+        <input name="start" type="radio" id="start" value="sp" />
+        <label for="gm">
+            Spring 2006</label>
+        <input name="start1" type="radio" id="start1" value="su" />
+        <label for="gf">
+            Summer 2006</label>
+    </fieldset>
+    <fieldset>
+        <p>
+            <textarea name="terms" cols="30" rows="4" readonly="readonly">Please send me more information about the loging</textarea>
+        </p>
+    </fieldset>
+    <fieldset>
+        <input type="submit" name="submitBtn" value="Submit" />
+        <input type="reset" value="Clear This Form" />
+    </fieldset>
+</body>
+</html>
