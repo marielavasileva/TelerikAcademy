@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Drugs" Class="MedicineDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\Data_tables\Drugs.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="diplomna_rabota.Properties.Settings" SettingsPropertyName="DrugsConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Drugs" Member="Drugs">
+    <Type Name="Drug">
+      <Column Name="[Генерично име]" Member="GenericName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="[Търговско име]" Member="MedicineName" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Производител" Member="Producer" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="[Лекарствена форма]" Member="MedForm" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="[НЗОК код]" Member="NZOKCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[Групи терапевтични агенти]" Member="TerapyAgent" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="[Механизъм на действие]" Member="Action" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="[Нежелани лекарствени действия]" Member="SideEffect" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="[Специални противопоказания]" Member="ContraIndication" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="[Кратка лекарствена характеристика]" Member="MedicineDescrip" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
