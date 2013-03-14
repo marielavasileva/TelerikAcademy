@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.ExtensionMethod", "1.ExtensionMethod\1.ExtensionMethod.csproj", "{0812F4A2-ECCF-4B20-9FF0-CAA6BB6EDBE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.IEnumerable", "2.IEnumerable\2.IEnumerable.csproj", "{3CD40A00-E107-4FA6-9C23-3E9F1618AEC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.LINQStudentsLastName", "3.LINQStudentsLastName\3.LINQStudentsLastName.csproj", "{2BE81AC5-C892-42BC-B3BD-FF71C0F5B650}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.LINQStudentAge", "4.LINQStudentAge\4.LINQStudentAge.csproj", "{169C8F92-080C-4D6E-AECD-27758F47FF0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.SortStudentLambda", "5.SortStudentLambda\5.SortStudentLambda.csproj", "{DD686EF4-B033-427E-B59C-48A5FCF138A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.DivisibleByThreeSeven", "6.DivisibleByThreeSeven\6.DivisibleByThreeSeven.csproj", "{9110301F-F157-40D6-9E58-EF3485EDDA8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0812F4A2-ECCF-4B20-9FF0-CAA6BB6EDBE5}.Debug|x86.ActiveCfg = Debug|x86
+		{0812F4A2-ECCF-4B20-9FF0-CAA6BB6EDBE5}.Debug|x86.Build.0 = Debug|x86
+		{0812F4A2-ECCF-4B20-9FF0-CAA6BB6EDBE5}.Release|x86.ActiveCfg = Release|x86
+		{0812F4A2-ECCF-4B20-9FF0-CAA6BB6EDBE5}.Release|x86.Build.0 = Release|x86
+		{3CD40A00-E107-4FA6-9C23-3E9F1618AEC3}.Debug|x86.ActiveCfg = Debug|x86
+		{3CD40A00-E107-4FA6-9C23-3E9F1618AEC3}.Debug|x86.Build.0 = Debug|x86
+		{3CD40A00-E107-4FA6-9C23-3E9F1618AEC3}.Release|x86.ActiveCfg = Release|x86
+		{3CD40A00-E107-4FA6-9C23-3E9F1618AEC3}.Release|x86.Build.0 = Release|x86
+		{2BE81AC5-C892-42BC-B3BD-FF71C0F5B650}.Debug|x86.ActiveCfg = Debug|x86
+		{2BE81AC5-C892-42BC-B3BD-FF71C0F5B650}.Debug|x86.Build.0 = Debug|x86
+		{2BE81AC5-C892-42BC-B3BD-FF71C0F5B650}.Release|x86.ActiveCfg = Release|x86
+		{2BE81AC5-C892-42BC-B3BD-FF71C0F5B650}.Release|x86.Build.0 = Release|x86
+		{169C8F92-080C-4D6E-AECD-27758F47FF0C}.Debug|x86.ActiveCfg = Debug|x86
+		{169C8F92-080C-4D6E-AECD-27758F47FF0C}.Debug|x86.Build.0 = Debug|x86
+		{169C8F92-080C-4D6E-AECD-27758F47FF0C}.Release|x86.ActiveCfg = Release|x86
+		{169C8F92-080C-4D6E-AECD-27758F47FF0C}.Release|x86.Build.0 = Release|x86
+		{DD686EF4-B033-427E-B59C-48A5FCF138A5}.Debug|x86.ActiveCfg = Debug|x86
+		{DD686EF4-B033-427E-B59C-48A5FCF138A5}.Debug|x86.Build.0 = Debug|x86
+		{DD686EF4-B033-427E-B59C-48A5FCF138A5}.Release|x86.ActiveCfg = Release|x86
+		{DD686EF4-B033-427E-B59C-48A5FCF138A5}.Release|x86.Build.0 = Release|x86
+		{9110301F-F157-40D6-9E58-EF3485EDDA8E}.Debug|x86.ActiveCfg = Debug|x86
+		{9110301F-F157-40D6-9E58-EF3485EDDA8E}.Debug|x86.Build.0 = Debug|x86
+		{9110301F-F157-40D6-9E58-EF3485EDDA8E}.Release|x86.ActiveCfg = Release|x86
+		{9110301F-F157-40D6-9E58-EF3485EDDA8E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
