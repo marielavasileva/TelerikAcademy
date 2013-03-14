@@ -85,11 +85,9 @@ Refactor the web page and make its HTML semantic:
 ## Exercise 2
 Create a web page using semantic HTML:
 
-![Screenshot](https://raw.github.com/jasssonpet/TelerikAcademy/master/WebDesign/1.HTMLBasics/5.SemanticWeb/2.ScoreTable/index.png)
 
 ## Exercise 3
 Create a web page using semantic HTML:
 
-![Screenshot](https://raw.github.com/jasssonpet/TelerikAcademy/master/WebDesign/1.HTMLBasics/5.SemanticWeb/3.LinkedIn/index.png)
 
 
