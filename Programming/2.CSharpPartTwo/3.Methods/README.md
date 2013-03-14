@@ -21,4 +21,3 @@
     * The sequence should not be empty
     * a should not be equal to 0
 * Write methods to calculate minimum, maximum, average, sum and product of given set of integer numbers. Use variable number of arguments.
-* \* Modify your last program and try to make it work for any number type, not just integer (e.g. decimal, float, byte, etc.). Use generic method (read in Internet about generic methods in C#).
