@@ -27,16 +27,7 @@ namespace DefiningClassesPartII
             }
         }
 
-        //public void Add(T element)
-        //{
-        //    if (count >= elements.Length)
-        //    {
-        //        throw new IndexOutOfRangeException(String.Format(
-        //            "The list capacity of {0} was exceeded.", elements.Length));
-        //    }
-        //    this.elements[count] = element;
-        //    count++;
-        //}
+       
 
         public T this[int index]
         {
