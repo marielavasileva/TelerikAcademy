@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Third</title>
+    <link href="style/js-console.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+	
+	<label for="tb-first">Number written separate : </label>
+	<input type="text" id="tb-first"/>
+	<br />					  
+	<a href="#" onclick="onFindMinMaxClick()">Find Subset</a>
+	<div id="js-console">
+	</div>
+	<script src="script/js-console.js">	  
+	</script>		  
+	<script>
+	    function onFindMinMaxClick() {
+	        var number = jsConsole.read("#tb-first");
+	        var myArray = number.split(" ");
+	        var max = parseInt(myArray[0]);
+	        var min = parseInt(myArray[0]);
+
+	        for (var i = 1; i < myArray.length; i++) {
+	            if (parseInt(myArray[i]) > max) {
+	                max = myArray[i];
+	            }
+	            if (parseInt(myArray[i]) < min) {
+	                min = myArray[i];
+	            }
+	        }
+	        jsConsole.writeLine("Max: " + max);
+	        jsConsole.writeLine("Min: " + min);
+	    }	 
+
+	</script>	
+</body>
+</html>

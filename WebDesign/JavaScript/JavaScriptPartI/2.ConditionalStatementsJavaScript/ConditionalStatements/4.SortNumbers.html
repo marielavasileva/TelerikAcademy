@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>4. SortNumbers</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+    </div>
+    
+	<script src="scripts/js-console.js"></script>
+    <script>
+
+    
+        var a = 3;
+        
+        var b = 7;
+        
+        var c = 14;
+
+
+        if (a >= b)
+        {
+            if ((a >= c) && (b > c))
+            {
+
+                jsConsole.writeLine(a + " " + b + " " + c);
+            }
+            if ((a > c) && (b <= c))
+            {
+
+                jsConsole.writeLine(a + " " + c + " " + b + "");
+            }
+        }
+
+
+        if ((a < b))
+        {
+            if ((b >= c) && (a >= c))
+            {
+                jsConsole.writeLine(b + " " + a + " " + c);
+            }
+
+            if ((b > c) && (a <= c))
+            {
+                jsConsole.writeLine(b + " " + " " + c + " " + a);
+            }
+        }
+
+
+
+        if (c >= a)
+        {
+            if ((c > b) && (a >= b))
+            {
+                jsConsole.writeLine(c + " " + a + " " + b + " ");
+            }
+
+
+            if ((c >= b) && (a <= b))
+            {
+                jsConsole.writeLine(c + " " + b + " " + a);
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Second</title>
+    <link href="style/js-console.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <label for="tb-first">
+        Enter number N:
+    </label>
+    <input type="text" id="tb-first" />
+    <br />
+    <a href="#" onclick="onPrintArrayNotDevisableButtonClick()">Print 1...N</a>
+    <div id="js-console">
+    </div>
+    <script src="script/js-console.js">	  
+    </script>
+    <script>
+        function onPrintArrayNotDevisableButtonClick() {
+
+            var number = jsConsole.readInteger("#tb-first");
+            jsConsole.writeLine("Printing number between 1 and " + number + " not devisible by 3 and 7 at the same time");
+            var string = "";
+            for (var i = 1; i <= number; i++) {
+
+
+                if (i % 21 != 0) {
+
+                    string += i;
+
+                    if (i != number) {
+                        string += ", ";
+                    }
+                }
+            }
+
+            jsConsole.writeLine(string);
+        }	 
+
+
+    </script>
+</body>
+</body>
+</html>

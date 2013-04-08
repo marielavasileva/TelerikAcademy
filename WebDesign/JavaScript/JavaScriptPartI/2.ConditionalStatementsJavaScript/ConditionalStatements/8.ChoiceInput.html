@@ -1,0 +1,370 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>7.GreatestFive</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="number1" />
+    <input type="text" id="number2" />
+    <input type="text" id="number3" />
+    <a href="#" onclick="onEvenOddButtonClick()">Print</a>
+    <div id="js-console">
+    </div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function onEvenOddButtonClick() {
+            var number1 = jsConsole.readFloat("#number1");
+            var number2 = jsConsole.readFloat("#number2");
+            var number3 = jsConsole.readFloat("#number3");
+
+            switch (number1) {
+                case 1:
+                    jsConsole.writeLine("one hundred ");
+                    break;
+                case 2:
+                    jsConsole.writeLine("two hundred ");
+                    break;
+                case 3:
+                    jsConsole.writeLine("three hundred ");
+                    break;
+                case 4:
+                    jsConsole.writeLine("four hundred ");
+                    break;
+                case 5:
+                    jsConsole.writeLine("five hundred ");
+                    break;
+                case 6:
+                    jsConsole.writeLine("six hundred ");
+                    break;
+                case 7:
+                    jsConsole.writeLine("seven hundred ");
+                    break;
+                case 8:
+                    jsConsole.writeLine("eight hundred ");
+                    break;
+                case 9:
+                    jsConsole.writeLine("nine hundred  ");
+                    break;
+                case 0:
+                    break;
+                default:
+                    jsConsole.writeLineLine("Not valid");
+                    break;
+
+
+            }
+            switch (number2) {
+
+                case 1:
+                    if ((number2 == 1) && (number1 != 0)) {
+                        switch (number3) {
+
+
+                            case 1:
+                                jsConsole.writeLine(" and eleven ");
+                                break;
+                            case 2:
+                                jsConsole.writeLine(" and twelve ");
+                                break;
+                            case 3:
+                                jsConsole.writeLine(" and thirteen ");
+                                break;
+                            case 4:
+                                jsConsole.writeLine(" and fourteen ");
+                                break;
+                            case 5:
+                                jsConsole.writeLine(" and fifteen ");
+                                break;
+                            case 6:
+                                jsConsole.writeLine(" and sixteen ");
+                                break;
+                            case 7:
+                                jsConsole.writeLine(" and seventeen ");
+                                break;
+                            case 8:
+                                jsConsole.writeLine(" and eighteen ");
+                                break;
+                            case 9:
+                                jsConsole.writeLine(" and nineteen ");
+                                break;
+                            case 0:
+                                jsConsole.writeLine(" and ten ");
+                                break;
+                            default:
+                                jsConsole.writeLineLine("Not valid");
+                                break;
+
+                        }
+                    }
+                    if (number1 == 0) {
+                        switch (number3) {
+
+
+                            case 1:
+                                jsConsole.writeLine(" eleven ");
+                                break;
+                            case 2:
+                                jsConsole.writeLine("  twelve ");
+                                break;
+                            case 3:
+                                jsConsole.writeLine(" thirteen ");
+                                break;
+                            case 4:
+                                jsConsole.writeLine(" fourteen ");
+                                break;
+                            case 5:
+                                jsConsole.writeLine(" fifteen ");
+                                break;
+                            case 6:
+                                jsConsole.writeLine(" sixteen ");
+                                break;
+                            case 7:
+                                jsConsole.writeLine("seventeen ");
+                                break;
+                            case 8:
+                                jsConsole.writeLine(" eighteen ");
+                                break;
+                            case 9:
+                                jsConsole.writeLine(" nineteen ");
+                                break;
+                            case 0:
+                                jsConsole.writeLine("  ten ");
+                                break;
+                            default:
+                                jsConsole.writeLineLine("Not valid");
+                                break;
+                        }
+                    }
+
+                    break;
+
+                case 2:
+                    jsConsole.writeLine("  twenty ");
+                    {
+                        if (number3 != 0) {
+                            switch (number3) {
+                                case 0:
+                                    jsConsole.writeLine(" and twenty ");
+                                    break;
+                                default:
+                                    break;
+                            }
+                        }
+                    }
+
+
+                    break;
+                case 3:
+                    jsConsole.writeLine("  thirty ");
+                    {
+                        if (number3 != 0) {
+                            switch (number3) {
+                                case 0:
+                                    jsConsole.writeLine(" and thirty ");
+                                    break;
+                                default:
+                                    break;
+
+                            }
+                        }
+                    }
+                    break;
+                case 4:
+                    jsConsole.writeLine(" fourty ");
+                    {
+                        if (number3 != 0) {
+                            switch (number3) {
+
+                                case 0:
+                                    jsConsole.writeLine(" and fourty ");
+                                    break;
+
+                                default:
+                                    break;
+                            }
+
+
+
+                        }
+                    }
+                    break;
+
+                case 5:
+                    jsConsole.writeLine(" fifty ");
+                    {
+                        if (number3 != 0) {
+                            switch (number3) {
+                                case 0:
+                                    jsConsole.writeLine(" and fifty ");
+                                    break;
+                                default:
+                                    break;
+                            }
+                        }
+                    }
+                    break;
+
+                case 6:
+                    jsConsole.writeLine("  sixty ");
+                    {
+                        if (number3 != 0) {
+                            switch (number3) {
+                                case 0:
+                                    jsConsole.writeLine(" and sixty ");
+                                    break;
+                                default:
+                                    break;
+                            }
+                        }
+                    }
+                    break;
+
+                case 7:
+                    jsConsole.writeLine("  seventy ");
+                    {
+                        if (number3 != 0) {
+                            switch (number3) {
+                                case 0:
+                                    jsConsole.writeLine(" and seventy ");
+                                    break;
+                                default:
+                                    break;
+                            }
+                        }
+                    }
+                    break;
+
+                case 8:
+                    jsConsole.writeLine(" eighty ");
+                    {
+                        if (number3 != 0) {
+                            switch (number3) {
+                                case 0:
+                                    jsConsole.writeLine(" and eighty ");
+                                    break;
+                                default:
+                                    break;
+                            }
+                        }
+                    }
+                    break;
+
+                case 9:
+                    jsConsole.writeLine(" ninety ");
+                    {
+                        if (number3 != 0) {
+                            switch (number3) {
+                                case 0:
+                                    jsConsole.writeLine(" and ninety ");
+                                    break;
+                                default:
+                                    jsConsole.writeLineLine("Not valid");
+                                    break;
+                            }
+                        }
+                    }
+                    break;
+
+                case 0:
+                    {
+                        if (number2 == 0) {
+                            switch (number3) {
+                                case 1:
+                                    jsConsole.writeLine(" and one \n");
+                                    break;
+
+                                case 2:
+                                    jsConsole.writeLine(" and two \n");
+                                    break;
+                                case 3:
+                                    jsConsole.writeLine(" and three \n");
+                                    break;
+
+                                case 4:
+                                    jsConsole.writeLine(" and four \n");
+                                    break;
+                                case 5:
+                                    jsConsole.writeLine(" and five \n");
+                                    break;
+                                case 6:
+                                    jsConsole.writeLine(" and six \n");
+                                    break;
+
+                                case 7:
+                                    jsConsole.writeLine(" and seven \n");
+                                    break;
+                                case 8:
+                                    jsConsole.writeLine(" and eight \n");
+                                    break;
+                                case 9:
+                                    jsConsole.writeLine(" and nine \n");
+                                    break;
+                                case 0:
+                                    if (number1 == 0) {
+                                        jsConsole.writeLine("zero ");
+                                    }
+                                    break;
+
+                                default:
+                                    break;
+
+                            }
+
+                        }
+                    }
+                    break;
+
+                default:
+                    jsConsole.writeLine("Not valid");
+                    break;
+            }
+            if ((number2 != 1) && (number2 != 0)) {
+                switch (number3) {
+                    case 1:
+                        jsConsole.writeLine(" one \n");
+                        break;
+
+                    case 2:
+                        jsConsole.writeLine(" two \n");
+                        break;
+                    case 3:
+                        jsConsole.writeLine(" three \n");
+                        break;
+
+                    case 4:
+                        jsConsole.writeLine(" four \n");
+                        break;
+                    case 5:
+                        jsConsole.writeLine(" five \n");
+                        break;
+                    case 6:
+                        jsConsole.writeLine(" six \n");
+                        break;
+
+                    case 7:
+                        jsConsole.writeLine(" seven \n");
+                        break;
+                    case 8:
+                        jsConsole.writeLine(" eight \n");
+                        break;
+                    case 9:
+                        jsConsole.writeLine(" nine \n");
+                        break;
+                    case 0:
+                        if ((number1 == 0) && (number2 == 0)) {
+                            jsConsole.writeLine(" zero ");
+                        }
+                        break;
+                    default:
+                        break;
+                }
+
+
+            }
+
+        }
+    </script>
+
+</body>
+</html>

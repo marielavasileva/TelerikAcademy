@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Check Brackets</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var correctExpression = "((a+b)/5-d)";
+        var incorrectExpression = ")(a+b))";
+
+        jsConsole.writeLine(correctExpression);
+        jsConsole.writeLine(checkBrackets(correctExpression));
+
+        jsConsole.writeLine( incorrectExpression);
+        jsConsole.writeLine(checkBrackets(incorrectExpression));
+
+
+        function checkBrackets(input) {
+            var countBrackets = 0;
+            for (var i = 0; i < input.length; i++) {
+                if (input[i] == "(") {  
+                    countBrackets++;
+                }
+                if (input[i] == ")") {
+                    countBrackets--;  
+                }
+                if (countBrackets < 0) {
+                    return false;
+                }
+            }
+            if (countBrackets == 0) { 
+                return true;
+            }
+            return false;
+        }
+    </script>
+</body>
+</html>

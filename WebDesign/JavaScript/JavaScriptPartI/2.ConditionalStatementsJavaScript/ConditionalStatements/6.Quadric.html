@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>6.Quadric</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+
+    <body>
+	
+	<input type="text" id="tb-first"/>
+	
+	<input type="text" id="tb-second"/>
+	
+	<input type="text" id="tb-third"/>
+	
+	<a href="#" onclick="QuadraticRoots()">Calculate real roots!</a>
+	<div id="js-console">
+    </div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>
+
+	    function QuadraticRoots() {
+	        var coeficientA = jsConsole.readFloat("#tb-first");
+	        var coeficientB = jsConsole.readFloat("#tb-second");
+	        var coeficientC = jsConsole.readFloat("#tb-third");
+	        var result1;
+	        var result2;
+
+	        var isThereRoots = (coeficientB * coeficientB - 4 * coeficientA * coeficientC) >= 0;
+	        if (isThereRoots == true) {
+	            result1 = (-coeficientB + (coeficientB * coeficientB - 4 * coeficientA * coeficientC)) / (2 * coeficientA);
+	            result2 = (-coeficientB - (coeficientB * coeficientB - 4 * coeficientA * coeficientC)) / (2 * coeficientA);
+	            if (result1 == result2) {
+	                jsConsole.writeLine(result1);
+	            }
+	            else {
+	                jsConsole.writeLine(result1);
+	                jsConsole.writeLine(result2);
+	            }
+	        }
+	        else {
+	            alert("No real roots!")
+	        }
+        }
+    </script>
+</body>
+</html>

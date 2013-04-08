@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Forth</title>
+    <link href="style/js-console.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div>
+		
+	</div>				  
+	<a href="#" onclick="onFindMinMaxClick()">Find Min Max Elements</a>
+	<div id="js-console">
+	</div>
+	<script src="script/js-console.js">	  
+	</script>		  
+	<script>
+	    function onFindMinMaxClick() {
+
+	        var documentElements = document.getElementsByTagName('*');
+
+	        var max = String(documentElements[0].tagName);
+	        var min = String(documentElements[0].tagName);
+
+	        //making to string everything so can compare correctly
+	        //target is lexcographical sort
+
+	        for (var i = 1; i < documentElements.length; i++) {
+	            if (String(documentElements[i].tagName) > max) {
+
+	                max = String(documentElements[i].tagName);
+	            }
+	            if (String(documentElements[i].tagName) < min) {
+	                min = String(documentElements[i].tagName);
+	            }
+	        }
+
+	        for (var property in navigator) {
+	            //making to string everything so can compare correctly
+	            //if so don't set min = navigator[property]
+	            if (String(navigator[property]) > max) {
+
+	                max = String(navigator[property]);
+	            }
+	            //checking if navigator[property] is empty
+	            //if so don't set min = navigator[property]
+	            if (String(navigator[property]) < min && navigator[property]) {
+	                min = String(navigator[property]);
+	            }
+	        }
+
+	        for (var property in window) {
+	            //making to string everything so can compare correctly
+	            if (String(window[property]) > max) {
+
+	                max = String(window[property]);
+	            }
+	            //checking if navigator[property] is empty
+	            //if so don't set min = navigator[property]
+	            if (String(window[property]) < min && window[property]) {
+
+	                min = String(window[property]);
+	            }
+	        }
+	        jsConsole.writeLine("Max: " + max);
+	        jsConsole.writeLine("Min: " + min);
+	    }	 
+
+	</script>		
+</body>
+</html>

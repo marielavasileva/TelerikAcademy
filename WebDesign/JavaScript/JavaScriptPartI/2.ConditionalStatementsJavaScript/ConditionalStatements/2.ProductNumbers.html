@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>2. ProductNumbers</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+    </div>
+    
+	<script src="scripts/js-console.js"></script>
+    <script>
+    
+            var a = -7;
+            
+            var b = 4;
+            
+            
+            var c = 4;
+            var ch1 = '-';
+            var ch2 = '+';
+            
+
+            if (a > 0)
+            {
+                if (b > 0)
+                {
+                    if (c > 0) {
+                        jsConsole.writeLine("The sum of the numbers is {0}"+ch2);
+                    }
+                    
+                }
+
+                if (b > 0)
+                {
+                    if (c < 0)
+                    {
+                        jsConsole.writeLine("The sum of the numbers is {0}"+ ch1);
+                    }
+                }
+
+                if (b < 0)
+                {
+                    if (c > 0)
+                    {
+                        jsConsole.writeLine("The sum of the numbers is {0}"+ ch1);
+
+                    }
+
+                }
+
+                if (b < 0)
+                {
+                    if (c < 0)
+                    {
+                        jsConsole.writeLine("The sum of the numbers is {0}"+ ch2);
+                    }
+                }
+            }
+
+
+                else if(a<0)
+                {
+                    if (b > 0)
+                    {
+                        if (c < 0)
+                        {
+                            jsConsole.writeLine("The sum of the numbers is {0}"+ ch2);
+                        }
+                    }
+
+                    if (b > 0)
+                    {
+                        if (c > 0)
+                        {
+                            jsConsole.writeLine("The sum of the numbers is {0}"+ ch1);
+                        }
+                    }
+
+                    if (b < 0)
+                    {
+                        if (c > 0)
+                        {
+                            jsConsole.writeLine("The sum of the numbers is {0}"+ ch2);
+                        }
+                    }
+
+                    if (b < 0)
+                    {
+                        if(c<0)
+                        {
+                            jsConsole.writeLine("The sum of the numbers is {0}"+ ch1);
+                        }
+                    }
+
+                }
+    </script>
+
+</body>
+</html>

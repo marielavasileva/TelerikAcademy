@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sixth</title>
+    <link href="style/js-console.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="content">
+        <div>
+            Finds the most frequent number in an array.</div>
+        <div id="input">
+            <label for="input-arr">
+                Your array:</label>
+            <input type="text" id="input-arr" />
+        </div>
+        <div id="button">
+            <a href="#" onclick="checkButton()">Check</a>
+        </div>
+    </div>
+    <div id="js-console">
+    </div>
+    <script src="script/js-console.js"></script>
+    <script>
+        function checkButton() {
+            var input = document.getElementById("input-arr").value;
+            var myArray = input.split(" ");
+
+            var tempValue = 0;
+            var frequentValue = 0;
+            var bestFrequency = 1;
+            var tempFrequency = 1;
+            var bestValue = 0;
+
+
+            for (var j = 1; j < myArray.length; j++) {
+                if ((tempValue >= myArray[j]) || (myArray[j] + 1 == myArray[j + 1]) ) {
+                    
+                    tempFrequency++;
+
+                    
+            }
+
+            jsConsole.writeLine("The most frequent value is " + bestValue + " and it's repeating " + tempFrequency + " times.");
+        }
+    </script>
+</body>
+</html>

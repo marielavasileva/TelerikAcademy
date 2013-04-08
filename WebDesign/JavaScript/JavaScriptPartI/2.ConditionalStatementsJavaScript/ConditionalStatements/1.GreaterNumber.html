@@ -1,0 +1,37 @@
+﻿<html>
+<head>
+	<title>1.GreaterNumber</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+    </div>
+    
+	<script src="scripts/js-console.js"></script>
+    <script>
+    
+            var firstNumber = 20;
+            
+            var secondNumber = 15;
+            var biggerNumber = firstNumber;
+            if ((firstNumber > secondNumber)&&(secondNumber!=0))
+            {
+               
+                jsConsole.writeLine("The greater number is :" +biggerNumber);                
+            }
+            else if ((secondNumber == 0) && (secondNumber > firstNumber)) {
+                jsConsole.writeLine("The greater number is : "+ firstNumber);
+            }
+            
+            if (secondNumber > firstNumber)
+            {
+                jsConsole.writeLine("The greater number is : "+ secondNumber);
+            }
+            if (secondNumber == firstNumber)
+            {
+                jsConsole.writeLine("The numbers are equal "+firstNumber+" to "+ secondNumber);
+            }
+    </script>
+
+</body>
+</html>

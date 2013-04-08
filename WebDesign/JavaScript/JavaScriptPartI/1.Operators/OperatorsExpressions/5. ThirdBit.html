@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>5. ThirdBit</title>
+
+<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+    </div>
+    
+	<script src="scripts/js-console.js"></script>
+    <script>
+
+        var number = 7;
+        var check = 8;
+        if ((number & check) != 0) {
+            jsConsole.writeLine("The third bit is 1.");
+        }
+        else {
+            jsConsole.writeLine("The third bit is 0. ");
+        }
+    </script>
+</body>
+</html>

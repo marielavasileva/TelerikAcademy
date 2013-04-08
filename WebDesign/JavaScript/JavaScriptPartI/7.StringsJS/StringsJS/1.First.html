@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Reverse String</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    
+    <script src="scripts/js-console.js"></script>
+    <script>
+
+        var input = "sample";
+
+        jsConsole.writeLine("Reversed string is: " + reverseString(input)); 
+        function reverseString(input) {
+            var result = "";  
+            for (var i = input.length - 1; i >= 0; i--) {  
+                result = result + input[i];  
+            }
+            return result;  
+    </script>
+</body>
+</html>

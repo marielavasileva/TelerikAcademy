@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>4. Third Number</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console">
+    </div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+
+
+        var number = 1234567891;
+        var dividedOn100 = parseInt(number / 100);
+        var reminder = dividedOn100 % 10;
+        var seven = true;
+        if (reminder != 7) {
+            seven = false;
+        }
+        jsConsole.writeLine("the third digit  right to left is 7 in " + number + "→" + seven);
+    </script>
+</body>
+</html>

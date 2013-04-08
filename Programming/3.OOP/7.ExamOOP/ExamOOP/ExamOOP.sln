@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.SoftwareAcademy", "ExamOOP\1.SoftwareAcademy.csproj", "{274D8B52-37EB-4348-9690-CFD5ACDD20C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.AcademyAPG", "AcademyAPG\2.AcademyAPG.csproj", "{CA62BBF4-D510-4B78-AE5A-E8339DBDEED4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{274D8B52-37EB-4348-9690-CFD5ACDD20C7}.Debug|x86.ActiveCfg = Debug|x86
+		{274D8B52-37EB-4348-9690-CFD5ACDD20C7}.Debug|x86.Build.0 = Debug|x86
+		{274D8B52-37EB-4348-9690-CFD5ACDD20C7}.Release|x86.ActiveCfg = Release|x86
+		{274D8B52-37EB-4348-9690-CFD5ACDD20C7}.Release|x86.Build.0 = Release|x86
+		{CA62BBF4-D510-4B78-AE5A-E8339DBDEED4}.Debug|x86.ActiveCfg = Debug|x86
+		{CA62BBF4-D510-4B78-AE5A-E8339DBDEED4}.Debug|x86.Build.0 = Debug|x86
+		{CA62BBF4-D510-4B78-AE5A-E8339DBDEED4}.Release|x86.ActiveCfg = Release|x86
+		{CA62BBF4-D510-4B78-AE5A-E8339DBDEED4}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

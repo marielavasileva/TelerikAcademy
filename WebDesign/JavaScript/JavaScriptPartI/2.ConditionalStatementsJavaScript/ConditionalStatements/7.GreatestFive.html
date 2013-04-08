@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>7.GreatestFive</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="a" />
+    <input type="text" id="b" />
+    <input type="text" id="c" />
+    <input type="text" id="d" />
+    <input type="text" id="e" />
+    <a href="#" onclick="onEvenOddButtonClick()">Print</a>
+    <div id="js-console">
+    </div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function onEvenOddButtonClick() {
+            var a = jsConsole.readFloat("#a");
+            var b = jsConsole.readFloat("#b");
+            var c = jsConsole.readFloat("#c");
+            var d = jsConsole.readFloat("#d");
+            var e = jsConsole.readFloat("#e");
+
+            if (a >= b) {
+                if (a > c) {
+                    if (a > d) {
+                        if (a > e) {
+
+                            jsConsole.writeLine("The greatest number is {0} : "+ a);
+                        }
+                    }
+                }
+            }
+
+
+            if (c >= a) {
+                if (c > b) {
+                    if (c > d) {
+                        if (c > e) {
+                            jsConsole.writeLine(c);
+                        }
+                    }
+                }
+            }
+            if (b >= a) {
+                if (b > c) {
+                    if (b > d) {
+                        if (b > e) {
+                            jsConsole.writeLine(b);
+                        }
+                    }
+                }
+            }
+            if (d >= a) {
+                if (d > b) {
+                    if (d > c) {
+                        if (d > e) {
+                            jsConsole.writeLine(d);
+                        }
+                    }
+                }
+            }
+            if (e >= a) {
+                if (e > b) {
+                    if (e > c) {
+                        if (e > d) {
+                            jsConsole.writeLine(e);
+                        }
+                    }
+                }
+            }
+
+        }
+    </script>
+</body>
+</html>
